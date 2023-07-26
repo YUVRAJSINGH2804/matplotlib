@@ -11,43 +11,43 @@ import matplotlib.pyplot as plt
 
 import numpy as np
 
-# x=np.linspace(0,10,100)#gives 100 values equally space in 0 to 10
-# y=np.sin(x)
-# z=np.cos(x)
+x=np.linspace(0,10,100)#gives 100 values equally space in 0 to 10
+y=np.sin(x)
+z=np.cos(x)
 
-# print(x)
-# print(y)
+print(x)
+print(y)
 
 
 # sin wave
 
-# plt.plot(x,y)
-# plt.show()
+plt.plot(x,y)
+plt.show()
 
 #  cosine wave
 
 
-# plt.plot(x,z)
-# plt.show()
+plt.plot(x,z)
+plt.show()
 
 # adding title x-axis and y- axis labels
 
-# plt.plot(x,y)
-# plt.xlabel('angle')
-# plt.ylabel('sine value')
-# plt.title('sine wave')
-# plt.show()
+plt.plot(x,y)
+plt.xlabel('angle')
+plt.ylabel('sine value')
+plt.title('sine wave')
+plt.show()
 
 # parabole
 
-# x=np.linspace(-10,10,20)
-# y=x**2
-# plt.show(x,y)
+x=np.linspace(-10,10,20)
+y=x**2
+plt.show(x,y)
 
 # plot parabola in red color with + symbol(r+)
 # plot parabola in green color with + symbol(g+)
-# plt.plot(x,y,'r+')
-# plt.show()
+plt.plot(x,y,'r+')
+plt.show()
 
 # give two curve in same graph
 x=np.linspace(-5,5,50)
